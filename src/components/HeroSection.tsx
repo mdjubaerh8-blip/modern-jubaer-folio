@@ -16,8 +16,10 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 animate-fade-up">
-          <span className="text-gradient">MD JUBAER HOSSAIN</span>
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-4 animate-fade-up tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+          <span className="text-foreground">MD JUBAER</span>
+          <br />
+          <span className="text-primary">HOSSAIN</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-primary font-medium mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
